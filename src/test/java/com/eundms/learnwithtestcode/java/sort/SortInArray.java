@@ -1,4 +1,4 @@
-package com.eundms.learnwithtestcode.java;
+package com.eundms.learnwithtestcode.java.sort;
 
 import java.util.Arrays;
 import java.util.Collections;
@@ -51,25 +51,5 @@ public class SortInArray {
 
     }
 
-    class Item implements Comparable<Item> {
-        int x, y;
 
-        public Item(int x, int y) {
-            this.x = x;
-            this.y = y;
-        }
-
-        @Override
-        public int compareTo(Item o) {
-            return this.x - o.x;
-        }
-
-        @Override
-        public String toString() {
-            return "Item{" +
-                    "x=" + x +
-                    ", y=" + y +
-                    '}';
-        }
-    }
 }
